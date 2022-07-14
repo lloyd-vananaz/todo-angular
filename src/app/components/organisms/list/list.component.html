@@ -1,0 +1,8 @@
+<div *ngFor="let item of items">
+  <h3>
+    <a [title]="item.name + ' details'">{{ item.name }}</a>
+  </h3>
+  <p *ngIf="item.description">Description: {{ item.description }}</p>
+  <button type="button" (click)="share()">Share</button>
+  <app-alerts [item]="item"></app-alerts>
+</div>

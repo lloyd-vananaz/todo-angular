@@ -10,6 +10,8 @@ import { AlertsComponent } from './components/molecules/alerts/alerts.component'
 import { ProductListComponent } from './components/templates/product-list/product-list.component';
 import { TodoListComponent } from './components/templates/todo-list/todo-list.component';
 import { CardComponent } from './components/organisms/card/card.component';
+import { TodoListPageComponent } from './components/pages/todo-list-page/todo-list-page.component';
+import { ProductListPageComponent } from './components/pages/product-list-page/product-list-page.component';
 
 // export const moduleDeclarations = [
 //   TopBarComponent,
@@ -27,6 +29,8 @@ import { CardComponent } from './components/organisms/card/card.component';
     ProductListComponent,
     TodoListComponent,
     CardComponent,
+    TodoListPageComponent,
+    ProductListPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

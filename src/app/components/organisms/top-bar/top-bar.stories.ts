@@ -12,4 +12,6 @@ const Template: Story = (args) => ({
 });
 
 export const TopBar = Template.bind({});
-TopBar.args = {};
+TopBar.args = {
+  title: 'Page Title',
+};

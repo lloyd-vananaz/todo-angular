@@ -1,0 +1,14 @@
+.card-container {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  /* max-width: 20%; */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-description {
+  margin-top: 10px;
+}

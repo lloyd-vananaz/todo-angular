@@ -7,6 +7,7 @@ import { CommonModule } from "@angular/common";
 import { AlertsComponent } from "../src/app/components/molecules/alerts/alerts.component";
 import { ListComponent } from "../src/app/components/organisms/list/list.component";
 import { TopBarComponent } from "../src/app/components/organisms/top-bar/top-bar.component";
+import { CardComponent } from "../src/app/components/organisms/card/card.component";
 
 import docJson from "../documentation.json";
 
@@ -25,7 +26,12 @@ export const parameters = {
 
 export const decorators = [
   moduleMetadata({
-    declarations: [AlertsComponent, ListComponent, TopBarComponent],
+    declarations: [
+      AlertsComponent,
+      ListComponent,
+      TopBarComponent,
+      CardComponent,
+    ],
     imports: [CommonModule],
   }),
 ];
